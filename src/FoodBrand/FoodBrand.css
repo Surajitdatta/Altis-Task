@@ -1,0 +1,9 @@
+.foodHeader{
+    height:400px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    overflow: hidden;
+}

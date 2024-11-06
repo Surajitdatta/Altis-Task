@@ -1,0 +1,68 @@
+[
+    {
+        "id":1,
+        "image":"https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_1280.jpg",
+        "rating":3,
+        "title":"Royal Canin - Golden Retriever Adult",
+        "stock":false,
+        "price":"RS. 1000"
+
+    },
+    {
+        "id":2,
+        "image":"https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_640.jpg",
+        "rating":3,
+        "title":"Royal Canin - Golden Retriever Adult",
+        "stock":true
+
+    },
+    {
+        "id":3,
+        "image":"https://cdn.pixabay.com/photo/2023/03/22/20/16/muffin-7870491_640.jpg",
+        "rating":3,
+        "title":"Royal Canin - Golden Retriever Adult",
+        "stock":false
+
+    },
+    {
+        "id":4,
+        "image":"https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_1280.jpg",
+        "rating":3,
+        "title":"Royal Canin - Golden Retriever Adult",
+        "stock":false
+
+    },
+    {
+        "id":5,
+        "image":"https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_1280.jpg",
+        "rating":3,
+        "title":"Royal Canin - Golden Retriever Adult",
+        "stock":false,
+        "price":"RS. 1000"
+
+    },
+    {
+        "id":6,
+        "image":"https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_1280.jpg",
+        "rating":3,
+        "title":"Royal Canin - Golden Retriever Adult",
+        "stock":true
+
+    },
+    {
+        "id":7,
+        "image":"https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_1280.jpg",
+        "rating":3,
+        "title":"Royal Canin - Golden Retriever Adult",
+        "stock":false
+
+    },
+    {
+        "id":8,
+        "image":"https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_1280.jpg",
+        "rating":2,
+        "title":"Royal Canin - Golden Retriever Adult",
+        "stock":false
+
+    }
+]

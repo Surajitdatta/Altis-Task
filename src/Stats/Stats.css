@@ -1,0 +1,44 @@
+.statsMain{
+    height:fit-content;
+    width:100%;
+    /* border:1px solid red; */
+    margin-top: 20px;
+    text-align: center;
+}
+.statsMain h2{
+    color:#e4509d;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+.statsMain h1{
+    font-weight: 400;
+    color:#2d3338;
+    position:relative;
+    width:fit-content;
+    margin:auto;
+}
+
+.statsMain h1::before{
+    position:absolute;
+    content:"";
+    height:5px ;
+    width:100px;
+    background:#e24898;
+    bottom:-10px;
+    left:40%;
+
+}
+.statsMain p{
+    width:40%;
+    margin: 20px auto;
+    font-size: 17px;
+    opacity: .7;
+}
+@media (max-width: 1152px){
+    .statsMain p{
+        width:90%;
+
+    }
+
+}

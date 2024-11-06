@@ -1,0 +1,113 @@
+/* Container for the dropdown */
+.dropdown {
+    position: relative;
+}
+
+/* Navigation icon (hamburger icon) */
+.nav-icon {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #e91e63;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+}
+
+/* Sidebar styling */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px; /* Adjust sidebar width for desktop */
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white */
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    transform: translateX(0); /* Show sidebar by default on desktop */
+}
+
+/* Sidebar hidden by default on mobile */
+.sidebar.closed {
+    transform: translateX(100%); /* Slide off-screen */
+}
+
+/* Logo styling */
+.dropdown-logo {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.dropdown-logo img {
+    width: 120px; /* Adjust logo size as needed */
+}
+
+/* Menu list styling */
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar ul li {
+    width: 100%;
+    padding: 10px 0;
+    color: #333;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    transition: color 0.2s;
+}
+
+.sidebar ul li:hover {
+    color: #e91e63;
+}
+
+/* Overlay effect for mobile only */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* Show overlay when sidebar is open on mobile */
+.overlay.active {
+    display: block;
+}
+
+/* Responsive styling for mobile */
+@media (max-width: 1152px) {
+    .nav-icon {
+        display: block;
+        color:rgb(26, 24, 24);
+    }
+
+    /* Sidebar is hidden by default on mobile */
+    .sidebar {
+        transform: translateX(100%);
+    }
+
+    /* Sidebar slides in when open on mobile */
+    .sidebar.open {
+        transform: translateX(0);
+    }
+    .dropdown-logo{
+        display:none;
+        
+    }
+}

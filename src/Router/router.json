@@ -1,0 +1,74 @@
+[
+    {
+        "image": "https://cdn.pixabay.com/photo/2024/10/20/14/09/pumpkins-9135128_1280.jpg",
+        "stock": false,
+        "off": "3% Off",
+        "title": "Gnawlers Chicken Bone Large 6' - Pumpkin Edition",
+        "rating": 4.5,
+        "price":800
+    },
+    {
+        "image": "https://pinkstore.altisinfonet.in/_next/image?url=https%3A%2F%2Fpinkstore.altisinfonet.in%2Frest%2Fuploads%2Fproducts%2F125%2Fprinted-crate-pad-2-PhotoRoom.png-PhotoRoom.jpg&w=1080&q=75",
+        "stock": false,
+        "off": "7% Off",
+        "title": "Gnawlers Crate Pad - Comfort Edition",
+        "rating": 4.0,
+        "price":300
+    },
+    {
+        "image": "https://cdn.pixabay.com/photo/2024/10/20/14/09/pumpkins-9135128_1280.jpg",
+        "stock": true,
+        "title": "Gnawlers Chicken Bone Pumpkin Flavor",
+        "rating": 4.7,
+        "price":300
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1596450514735-111a2fe02935?q=80&w=2011&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": false,
+        "title": "Gnawlers Bone Chew - Original",
+        "rating": 4.2,
+        "price":300
+    },
+    {
+        "image": "https://cdn.pixabay.com/photo/2024/10/20/14/09/pumpkins-9135128_1280.jpg",
+        "stock": false,
+        "title": "Gnawlers Pumpkin Delight Bone",
+        "rating": 4.6,
+        "price":200
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1596450514735-111a2fe02935?q=80&w=2011&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": true,
+        "title": "Gnawlers Bone Chew Toy",
+        "rating": 4.1,
+        "price":320
+    },
+    {
+        "image": "https://cdn.pixabay.com/photo/2024/10/20/14/09/pumpkins-9135128_1280.jpg",
+        "stock": true,
+        "title": "Gnawlers Large Bone - Halloween Edition",
+        "rating": 3.8,
+        "price":300
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1596450514735-111a2fe02935?q=80&w=2011&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "stock": false,
+        "title": "Gnawlers Chewy Bone - Durable",
+        "rating": 4.3,
+        "price":100
+    },
+    {
+        "image": "https://cdn.pixabay.com/photo/2024/10/20/14/09/pumpkins-9135128_1280.jpg",
+        "stock": true,
+        "title": "Gnawlers Chicken Bone for Dogs",
+        "rating": 4.4,
+        "price":30
+    },
+    {
+        "image": "https://pinkstore.altisinfonet.in/_next/image?url=https%3A%2F%2Fpinkstore.altisinfonet.in%2Frest%2Fuploads%2Fproducts%2F106%2FHappy-Tummy-mango-2-PhotoRoom.png-PhotoRoom.jpg&w=384&q=75",
+        "stock": false,
+        "title": "Gnawlers Happy Tummy - Mango Flavor",
+        "rating": 2.0,
+        "price":300
+    }
+]

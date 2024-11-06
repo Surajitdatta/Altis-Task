@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.bannerMain{
+    height:400px;
+    width:100%;
+    margin-top: 20px;
+    background-image: url("https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* border:2px solid red; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    
+
+}
+.bannerContent{
+    height:200px;
+    width:300px;
+    /* border:1px solid red; */
+    transform: translateY(200px);
+    /* transform: translateX(120px); */
+    margin-left: 100px;
+    ;
+}
+.bannerContent h2{
+    /* font-size: 150%; */
+    font-size: 40px;
+    font-family: 'Cookie', cursive;
+    
+}  
+
+.bannerContent button{
+    border-radius: 5px 20px 5px;
+    background: #e42286;
+    color:#ffffff;
+    border:0px solid red;
+    height:40px;
+    width:120px;
+
+
+
+
+}
+@media (max-width: 1152px){
+    .bannerMain{
+        height:270px;
+
+    }
+    .bannerContent{
+        transform:translateY(50px);
+        margin-left:20px;
+        
+    }
+
+}

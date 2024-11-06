@@ -1,0 +1,49 @@
+.desktopDropdown{
+    width:fit-content;
+    margin-right: 80px;
+    align-items: center;
+    height: fit-content;
+    position:relative;
+    
+}
+.desktopDropdown ul{
+    display:flex;
+    gap:20px;
+
+
+}
+.desktopDropdown ul li{
+    list-style-type: none;
+    white-space: nowrap;
+    /* padding: 5px; */
+    color: #7a7a7a;
+    font-weight: 700;
+    font-size: 75%;
+    text-transform: uppercase;
+
+}
+.dropdownMenu {
+    height:300px;
+    width:100%;
+    padding:20px;
+
+    background:rgb(255, 255, 255);
+    position:absolute;
+    z-index: 999;
+    left:0px;
+    /* top:20px; */
+
+    display:flex;
+    flex-wrap:wrap;
+
+
+}
+.dropdownList{
+    margin-top: 20px;
+}
+
+.dropdownList a{
+    list-style: none;
+    text-decoration: none;
+    color:rgb(57, 55, 55);
+}

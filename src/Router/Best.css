@@ -1,0 +1,77 @@
+.bestCardMain{
+    height:fit-content;
+    width:100%;
+    /* border:4px dotted green; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    /* padding:10px; */
+
+
+
+}
+
+.bestCard{
+    height:fit-content;
+    width:200px;
+    /* border:1px solid red; */
+    padding:10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
+
+.bestHeader{
+    height: 40px;
+    width:100%;
+    /* border:1px solid red; */
+    display:flex;
+    justify-content: space-between;
+}
+.bestStock{
+    color:red;
+    font-weight:bolder;
+    font-size: 15px;
+
+
+}
+.bestOff{
+    width:fit-content;
+    height:fit-content;
+    border:1px solid green;
+    padding:0px 5px;
+    background-color: green;
+    color:white;
+    border-radius:12px;
+}
+.bestRate{
+    font-size: 24px; 
+    color: gold; 
+    text-align: center;
+    
+}
+.bestContent p{
+    color : #595959;
+    font-size: 90%;
+    font-weight: bold;
+}
+.bestContent b{
+    font-size:20px;
+    color:#595959;
+
+}
+@media (max-width: 768px){
+    .bestCard{
+        height:fit-content;
+        width:180px;
+        /* border:1px solid red; */
+        padding:10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+    }
+    .bestCardMain{
+        display:grid;
+        grid-template-columns: auto auto;
+        padding:10px;
+        gap:5px
+    }
+
+}

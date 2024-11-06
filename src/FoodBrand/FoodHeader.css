@@ -1,0 +1,45 @@
+.FoodHeaderMain{
+    height:fit-content;
+    width:70%;
+    /* border:1px solid red; */
+    margin-top:10px;   
+    
+}
+.FoodText{
+    box-sizing :border-box;
+    color: rgb(228, 80, 157);
+    display : block;
+    font-family : "DM Sans", sans-serif;
+    font-size :22.5px;
+    text-align:center;
+
+
+}
+
+.FoodText b:nth-of-type(2) {
+    
+    box-sizing: border-box;
+    color: rgb(77, 77, 77);
+    display :block;
+    font-family :"DM Sans", sans-serif;
+    font-feature-settings :normal;
+    position:relative;
+}
+.FoodText b:nth-of-type(2)::before{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    height: 5px;
+    width: 100px;
+    background: rgb(228, 80, 157);
+    content: "";
+}
+.FoodText b:nth-of-type(3){
+    box-sizing :border-box;
+    color :rgb(152, 152, 152);
+    display: block;
+    font-family : "DM Sans", sans-serif;
+    font-size: 14.4px;
+    margin-top:20px;
+}

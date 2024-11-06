@@ -1,0 +1,72 @@
+.newCardMain {
+    height: fit-content; 
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newCard {
+    flex-shrink: 0; 
+    height: 380px; 
+    width: 200px; 
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+}
+
+.newHeader {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newStock {
+    color: red;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.newOff {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid green;
+    padding: 0px 5px;
+    background-color: green;
+    color: white;
+    border-radius: 12px;
+}
+
+.newRate {
+    font-size: 24px; 
+    color: gold; 
+    text-align: center;
+}
+
+.newContent {
+    width: 100%;
+    text-align: center;
+}
+
+.newContent p {
+    color: #595959;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.newContent b {
+    font-size: 20px;
+    color: #595959;
+}
+
+.slick-slide {
+    display: flex; 
+    justify-content: center; 
+}
+
+.newImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

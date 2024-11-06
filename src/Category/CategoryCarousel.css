@@ -1,0 +1,43 @@
+.customCategoryCarouselContainer {
+    /* border: 2px solid red; */
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carouselCategoryItem {
+    width: 150px; /* Increase width for each item */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  }
+  
+  .carouselCategoryImage img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .carouselCategoryCardBottom {
+    width: 140px;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  /* Override Slick carousel default spacing */
+  .slick-slide {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .slick-track {
+    display: flex;
+    gap: 20px !important; /* Adjust gap between items to 20px or preferred size */
+  }
+  
